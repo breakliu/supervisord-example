@@ -29,3 +29,4 @@ root      soft    nofile      100000
 * reload all programs: `supervisorctl reload`
 * restart one program: `supervisorctl restart worker`
 * generate default supervisord.conf: `echo_supervisord_conf > supervisord.conf`
+* maybe: `supervisorctl -c /etc/supervisord/supervisord.conf`
